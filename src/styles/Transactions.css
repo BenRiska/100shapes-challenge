@@ -1,0 +1,16 @@
+.transactions {
+  height: 55vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.transactions-container {
+  overflow-y: scroll;
+  height: 52vh;
+  padding: 0.5rem 1rem;
+  width: 100vw;
+}
+
+.transactions::-webkit-scrollbar {
+  display: none;
+}

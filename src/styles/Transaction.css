@@ -1,0 +1,16 @@
+.transaction > ul {
+  list-style: none;
+  display: flex;
+  background-color: #f9f9f9;
+  margin: 0.5rem 0;
+  padding: 1.8rem 0rem;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.transaction > ul > li {
+  font-size: calc(0.3rem + 2vw);
+  flex: 0.25;
+  text-align: center;
+  font-weight: 600;
+}

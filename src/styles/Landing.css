@@ -1,0 +1,106 @@
+.landing {
+  width: 100vw;
+  overflow-x: none;
+  overflow-y: none;
+  height: 100vh;
+}
+
+.top-container {
+  height: 45vh;
+}
+
+.bottom-container {
+  height: 55vh;
+}
+
+.landing__nav {
+  display: flex;
+  height: 10vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.landing__nav-avatar {
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+}
+
+.landing__nav-avatar > img {
+  border-radius: 999px;
+  height: 5vh;
+  border: 3px solid black;
+}
+
+.landing__greeting {
+  font-size: calc(1rem + 2vw);
+  margin: 0rem 0rem 0.5rem 1rem;
+  font-weight: 600;
+  position: absolute;
+  top: 10vh;
+}
+
+.landing__accounts-title {
+  font-size: calc(0.6rem + 2vw);
+  margin: 1.5rem 0rem 0.5rem 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 15vh;
+}
+
+.landing__transactions-title {
+  height: 3vh;
+  font-size: calc(0.6rem + 2vw);
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.landing__accounts-list {
+  display: flex;
+  margin: 1rem 0rem;
+  padding: 0 1rem;
+  width: 100%;
+  overflow-x: scroll;
+  position: absolute;
+  top: 20vh;
+}
+
+.landing__accounts-list::-webkit-scrollbar {
+  display: none;
+}
+
+.landing__account-item {
+  background: linear-gradient(#4c54e1, #6652e2);
+  border-radius: 10px;
+  margin-right: 1rem;
+  color: white;
+  padding: 0.5rem;
+  min-height: 10rem;
+  min-width: 8rem;
+  position: relative;
+}
+
+.landing__account-item-avatar {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.landing__account-item-avatar > img {
+  border-radius: 999px;
+  height: 4vh;
+  border: 2px solid white;
+}
+
+.owed {
+  font-size: 0.7rem;
+  margin-top: 0.3rem;
+}
+
+.owed-amount {
+  margin-top: 1.5rem;
+}
+
+.owed-amount > span {
+  font-size: 2rem;
+}
